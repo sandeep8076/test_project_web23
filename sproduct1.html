@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chaset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pandey Shopping </title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="header">
+            <div class="logo"><a href="#">Pichai home care pvt ltd</a></div>
+            <div>
+                <ul id="navbar">
+                    <li><a  href="index.html">Home</a></li>
+                    <li><a class="active" href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                  <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                    <a href="#" id="close"><i class="far fa-times"></i></a>
+                    </ul>
+            </div>
+            <div id="mobile">
+                
+                <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+        <section id="prodetails" class="sectio-p1">
+            <div class="single-pro-image">
+                <img src="sub item1.jpeg" width="100%" id="MainImg" alt="">
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                        <img src="sub item1.jpeg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="sub item2.jpeg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="sub item3.jpeg" width="100%" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="sub item4.jpeg" width="100%" class="small-img" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="single-pro-details">
+            <h6>Home/ Pocker Chips</h6>
+            <h4>Men's Fashion T-Shirts</h4>
+            <h2>Rs:- 654</h2>
+           
+            
+            <span>Why Choose Premium Poker Chips?
+
+                Authentic Casino Feel: Our poker chips are designed to replicate the feel and weight of casino-quality chips. With a professional-grade clay composite, they provide a satisfying clink and a solid grip that enhances your gaming experience.
+                
+                Customizable Designs: Express your personality or brand with custom designs. Whether you’re hosting a charity event, a corporate gathering, or a casual game with friends, our poker chips can be personalized to match the occasion.
+                
+                Durability and Longevity: Crafted to withstand countless games, our poker chips are resistant to chipping and fading. Invest in chips that will last for years and continue to impress every time they hit the table.
+                
+                Variety of Sets: Choose from a wide range of chip sets, including options for home games, tournaments, and professional use. Our sets come with a variety of denominations and are neatly packed in high-quality cases for easy transport and storage.</span>
+        </div>
+        <section id="newsletter" class="sectio-p1 section-m1">
+            <div class="newstext">
+                <h4>Sign UP For Newsletter</h4>
+                <p>Get E-mail updates aboutour latest shop and<span> special offeres.</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Your emial  adddress">
+                <button class="normal">Sign Up</button>
+            </div>
+        </section>
+        <footer class="sectio-p1">
+            <div class="call-button-container">
+                <a href="tel:9811305906" class="call-button">Call Us</a>
+            </div>
+            <div class="whatsapp-button-container">
+                <a href="https://wa.me/9811305906" class="whatsapp-button" target="_blank" rel="noopener noreferrer">
+                    <img src="whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+                    Chat with us on WhatsApp
+                </a>
+            </div>
+            <div class="col">
+                <div class=""><a href="#">Pichai home care pvt ltd</a></div>
+                <h4>Contact</h4>
+                <p><strong>Phone:</strong> +91 9811305906/ +91 9310910666</p>
+                <p><stron>House:</stron>10:00 -18:00, Mon - Sat</p>
+            
+                <h4>follow</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-Pinterest-p"></i>
+                    <i class="fab fa-youtube-f"></i>
+                    </div>
+                </div>
+            </div>
+            <div class='col'>
+                <h4>About</h4>
+                <a href="#">About us</a>
+                <a href="#">Delivery Information</a>
+                <a hef="#">Privacy  Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Contacts Us</a>
+            </div>
+            <div class='col'>
+                <h4>My Account</h4>
+                <a href="#">Sign In</a>
+                <a href="#">view cart</a>
+                <a href="#">Privacy  Policy</a>
+                <a href="#">My Wishlist</a>
+                <a href="#">Track My Order</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store o google Play</p>
+                <div class="row">
+                    <img src="app.jpg" alt="">
+                    <img src="play.jpg" alt="">
+                </div>
+                <div>
+                    <p>Secued Payment gateways</p>
+                    <img src="pay.png" alt="">
+                </div>
+        </div>
+        <div class="copyright">
+            <p>@ 2021, tech2 etc - Pichai home care pvt ltd</p>
+        </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
+       
+        <script>
+            var MainImg = document.getElementById("MainImg");
+            var smallimg = document.getElementsByClassName("small-img");
+            
+            smallimg[0].onclick = function(){
+                MainImg.src = smallimg[0].src;
+            } 
+            smallimg[1].onclick = function(){
+                MainImg.src = smallimg[1].src;
+            }
+            smallimg[2].onclick = function(){
+                MainImg.src = smallimg[2].src;
+            }
+            smallimg[3].onclick = function(){
+                MainImg.src = smallimg[3].src;
+            }
+        </script>
+
+        <script src="script.js"></script>
+    </body>
+</html>
